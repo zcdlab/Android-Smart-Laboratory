@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">网络继电器</string>
+    <string name="relOn" >吸合</string>
+    <string name="relOff">断开</string>
+    
+    <string name="relAllOn" >吸合所有</string>
+    <string name="relAllOff">断开所有</string> 
+    
+    
+    <string name="ipset">IP端口设置：</string> 
+    
+    <string name="state0">断开</string> 
+    <string name="state1">吸合</string>
+    <string name="state2">未知</string> 
+    
+    <string name="relay1">继电器1</string> 
+    <string name="relay2">继电器2</string> 
+    <string name="relay3">继电器3</string> 
+    <string name="relay4">继电器4</string>  
+    
+    
+    <string name="msg1">连接设备超时</string> 
+    <string name="msg2">连接成功</string> 
+    <string name="msg3">设备已断开</string> 
+    <string name="msg4">发送失败</string> 
+    <string name="msg5">设备已断开,请重新连接</string> 
+    <string name="msg6">无效IP</string> 
+    <string name="msg7">无效端口</string> 
+    
+    
+    <string name="tileQuit">"确定要退出应用？"</string> 
+    <string name="lbQuit">退出</string> 
+    <string name="lbCancle">取消</string> 
+    
+    <string name="lbRelay">继电器</string>  
+    <string name="lbAbout">关于</string>  
+    <string name="lbSet">设置</string>    
+    <string name="setSuccess">设置成功</string>  
+   <string name="lbSave">保存</string>  
+<string name="lbnamerel">继电器命名</string> 
+	<string name="lblog1">"    济南有人物联网技术有限公司专业专注于物联网之联网产品领域，提供形式多样的串口转网络模块及成型DTU产品，UART/RS232/RS485/RS422转网络/WIFI/GPRS/3G等。"</string>
+	<string name="lblog2">"    本程序由有人科技开发，供客户免费测试使用，请勿直接用于商业用途。"</string>
+	<string name="lbnet">http://www.usr.cn</string>
+	<string name="lbtel">053155507297</string>
+	<string name="lbmail">Email:tec@usr.cn</string>
+	    
+    
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:id="@+id/mainLay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutform2"
+        android:orientation="vertical"  >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+             android:layout_marginBottom="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbnamerel"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+	         <LinearLayout 
+	             android:layout_height="wrap_content"
+	             android:layout_width="fill_parent"
+	             android:orientation="horizontal" >
+					    <TextView 
+					        android:textColor="@drawable/bncolor" android:layout_marginRight="10px"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/relay1" />
+	                   <EditText android:singleLine="true"
+			                android:id="@+id/etRelay1"  
+			                android:maxLength="16"
+			                android:textColor="@drawable/bncolor"
+			                android:background="@drawable/layoutform" 
+			                android:text="@string/relay1"
+			                android:layout_height="wrap_content"
+			                android:layout_width="fill_parent" />
+			   </LinearLayout> 
+	         <LinearLayout 
+	             android:layout_height="wrap_content"
+	             android:layout_width="fill_parent"
+	             android:orientation="horizontal" >
+					    <TextView 
+					        android:textColor="@drawable/bncolor" android:layout_marginRight="10px"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/relay2" />
+	                   <EditText android:singleLine="true" android:maxLength="16"
+			                android:id="@+id/etRelay2"  android:textColor="@drawable/bncolor"
+			                android:background="@drawable/layoutform" 
+			                android:text="@string/relay2"
+			                android:layout_height="wrap_content"
+			                android:layout_width="fill_parent" />
+			   </LinearLayout> 
+	         <LinearLayout 
+	             android:layout_height="wrap_content"
+	             android:layout_width="fill_parent"
+	             android:orientation="horizontal" >
+					    <TextView 
+					        android:textColor="@drawable/bncolor" android:layout_marginRight="10px"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/relay3" />
+	                   <EditText android:singleLine="true" android:maxLength="16"
+			                android:id="@+id/etRelay3"  android:textColor="@drawable/bncolor"
+			                android:background="@drawable/layoutform" 
+			                android:text="@string/relay3"
+			                android:layout_height="wrap_content"
+			                android:layout_width="fill_parent" />
+			   </LinearLayout> 
+	         <LinearLayout 
+	             android:layout_height="wrap_content"
+	             android:layout_width="fill_parent"
+	             android:orientation="horizontal" >
+					    <TextView  android:layout_marginRight="10px"
+					        android:textColor="@drawable/bncolor"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/relay4" />
+	                   <EditText android:singleLine="true" android:maxLength="16"
+			                android:id="@+id/etRelay4"  android:textColor="@drawable/bncolor"
+			                android:background="@drawable/layoutform" 
+			                android:text="@string/relay4"
+			                android:layout_height="wrap_content"
+			                android:layout_width="fill_parent" />
+			   </LinearLayout> 
+			   
+	         <LinearLayout 
+	             android:layout_height="wrap_content"
+	             android:layout_width="fill_parent"
+	             android:orientation="horizontal" >
+                        <Button
+                            android:id="@+id/bnSet"
+                            android:background="@drawable/buttonform"
+                            android:layout_width="80px"
+                            android:textColor="@drawable/bncolor"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3px"
+                            android:layout_marginLeft="3px"
+                            android:layout_marginRight="6px"
+                            android:layout_marginTop="3px"
+                            android:layout_weight="1"
+                            android:text="@string/lbSave" />
+                        <Button
+                            android:id="@+id/bnCancel" android:textColor="@drawable/bncolor"
+                            
+                            android:background="@drawable/buttonform"
+                            android:layout_width="80px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3px"
+                            android:layout_marginLeft="3px"
+                            android:layout_marginRight="6px"
+                            android:layout_marginTop="3px"
+                            android:layout_weight="1"
+                            android:text="@string/lbCancle" />
+			   </LinearLayout> 
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

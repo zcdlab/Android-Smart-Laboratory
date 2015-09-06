@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <drawable name="darkgray">#808080FF </drawable> 
+   <drawable name="white">#FFFFFFFF</drawable>
+   
+	<color name="white">#ffffffff</color>  
+	<color name="unfocused">#cccccccc</color>  
+	<color name="pressed">#fff22fff</color>  
+	<color name="selected">#fff33fff</color>  
+	<color name="focused">#ffff44ff</color>  
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#e0000000</color>
+    <color name="darkgray">#FF808080</color>
+    
+</resources>

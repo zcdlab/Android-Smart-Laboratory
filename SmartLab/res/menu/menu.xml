@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/itset" 
+        android:title="@string/lbSet"
+        android:icon="@drawable/menu_filemanager" >
+    </item>   
+     <item 
+        android:id="@+id/itabout" 
+        android:title="@string/lbAbout"
+        android:icon="@drawable/menu_about" >
+    </item>
+
+</menu>

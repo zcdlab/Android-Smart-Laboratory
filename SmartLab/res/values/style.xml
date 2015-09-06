@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <style name="my_style_1">
+  <item name="android:hint">load from style 1</item>
+ </style>
+ <style name="my_style_2" parent="@style/my_style_1">
+  <!-- 定义与指定View相关的若干属性 -->
+  <item name="android:textSize">30sp</item>
+  <item name="android:textColor">#FFFF0000</item>
+  <item name="android:hint">load from style 2</item>
+ </style>
+ 
+ <!-- 定义my_style_3，用android的EditText作为parent -->
+ <style name="my_style_3" parent="@android:style/Widget.EditText">
+  <!-- 定义与指定View相关的若干属性 -->
+  <item name="android:hint">"load from style 3"</item>
+  <item name="android:textStyle">bold|italic</item>
+ </style>
+ 
+ <!-- 定义MyTheme，用android的Theme作为parent -->
+ <style name="MyTheme" parent="@android:style/Theme">
+  <item name="android:textSize">20sp</item>
+  <item name="android:textColor">#FF0000FF</item>
+  <item name="android:hint">"load from style 3"</item>
+  <item name="android:textStyle">bold|italic</item>
+ </style> 
+ 
+ 
+ 
+	<style name="CustomButton" parent="@android:style/Widget.Button"> 
+		<!-- 水平、垂直居中 --> 
+		<item name="android:gravity">center_vertical|center_horizontal</item> 
+		<!-- 字体颜色 --> 
+		<item name="android:textColor">#FFFFFFFF</item> 
+		<!-- 指定文本阴影的颜色，需要与shadowRadius一起使用 --> 
+		<item name="android:shadowColor">#FF000000</item> 
+		<!-- 设置阴影横向坐标开始的位置 --> 
+		<item name="android:shadowDx">0</item> 
+		<!-- 设置阴影纵向坐标开始的位置 --> 
+		<item name="android:shadowDy">-1</item> 
+		<!-- 设置阴影的半径，设置为0.1就变成文本的颜色了 --> 
+		<item name="android:shadowRadius">0.2</item> 
+		<item name="android:textSize">16sp</item> 
+		<item name="android:textStyle">bold</item> 
+		 <!-- 这里引用定义的按钮样式 --> 
+
+		<item name="android:focusable">true</item> 
+		<item name="android:clickable">true</item> 
+	</style> 
+ 
+ 
+    <style name="BlueText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+ 
+    
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item> >
+    </style>
+    
+	<style name="mytheme" parent="@android:style/Theme.Light">
+		<item name="android:windowNoTitle"> true </item>
+	</style>
+
+
+	<style name="PopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/ani_in</item>
+		<item name="android:windowExitAnimation">@anim/ani_out</item>
+	</style>
+
+	
+    <style name="AnimationPreview">  
+        <item name="android:windowEnterAnimation">@anim/popanim_in</item> 
+        <item name="android:windowExitAnimation">@anim/popanim_out</item>
+    </style>  
+	
+
+
+</resources>
